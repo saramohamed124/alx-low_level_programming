@@ -1,6 +1,12 @@
 #include <stdio.h>
-int main (){
-    char puts2 []= "Programming is like building a multilingual puzzle\n";
-    puts(puts2);
-    return 0;
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+char puts2[] = "Programming is like building a multilingual puzzle";
+puts(puts2);
+return (0);
 }
