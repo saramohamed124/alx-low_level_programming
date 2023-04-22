@@ -11,7 +11,7 @@
 int main(void)
 {
 int alphapet = 122;
-while (alphapet >= 97 )
+while (alphapet >= 97)
 {
 putchar(alphapet);
 alphapet--;
