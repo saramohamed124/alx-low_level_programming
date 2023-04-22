@@ -14,7 +14,7 @@ for (s = 48; s <= 57; s++)
 putchar(s);
 if (s == 57)
 {
- continue;
+continue;
 }
 putchar(',');
 putchar(' ');
