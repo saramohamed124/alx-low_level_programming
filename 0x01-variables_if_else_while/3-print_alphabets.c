@@ -6,16 +6,16 @@
  *putchar() is a function
  * Return: Always 0 (Success)
 */
-int main()
+int main(void)
 {
 char s;
 char u;
-for(s = 'a'; s <= 'z'; s++)
+for (s = 'a'; s <= 'z'; s++)
 putchar(s);
-        
-for(u = 'A'; u <= 'Z'; u++)
+
+for (u = 'A'; u <= 'Z'; u++)
 putchar(u);
-        
+
 putchar('\n');
-return 0;
+return (0);
 }
