@@ -5,11 +5,12 @@
  *while and if are functions
  * Return: Always 0 (Success)
 */
-int main (void)
+int main(void)
 {
 char o = 'a';
-while (o <= 'z'){
-if (o == 'e'|| o == 'q')
+while (o <= 'z')
+{
+if (o == 'e' || o == 'q')
 {
 o++;
 continue;
