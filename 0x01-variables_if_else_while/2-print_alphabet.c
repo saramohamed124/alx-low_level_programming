@@ -10,8 +10,8 @@
 */
 int main(void)
 {
-char alphapet ;
-for (alphapet = 'a'; alphapet <= 'z';alphapet++)
+char alphapet;
+for (alphapet = 'a';alphapet <= 'z';alphapet++)
 putchar(alphapet);
 
 putchar('\n');
