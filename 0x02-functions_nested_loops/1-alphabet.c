@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 #include <stdio.h>
 void print_alphabet(void);
 /**
@@ -13,7 +13,6 @@ putchar('\n');
 return (0);
 }
 void print_alphabet(void)
-{
 for (char i = 'a'; i <= 'z'; i++)
 {
 printf("%c", i);
