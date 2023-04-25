@@ -18,3 +18,4 @@ for (i = 'a'; i <= 'z'; i++)
 {
 printf("%c",i);
 }
+void print_alphabet(void);
