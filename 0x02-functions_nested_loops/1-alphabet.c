@@ -1,10 +1,8 @@
 #include "main.h"
 /**
- * main - check the code
- * functoinprint_alphabet
- * Return: putchari
+ * print_alphabet - Make the alphabet
+ * Return: void
  */
-
 void print_alphabet(void)
 {
 char i;
