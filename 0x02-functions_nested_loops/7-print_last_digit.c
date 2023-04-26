@@ -6,17 +6,17 @@
  * Return: 1 for letter, lowercase and
  uppercase characters and 0 for else
  */
- int print_last_digit(int r)
- {
- int last_digit;
- if (last_digit < 0)
- {
-   last_digit = -1 * (n % 10);
- }
- else
- {
- last_digit = n % 10;
- }
- _putchar(last_digit + 48);
- return (last_digit);
- }
+int print_last_digit(int n)
+{
+int last_digit;
+if (last_digit < 0)
+{
+last_digit = -1 * (n % 10);
+}
+else
+{
+last_digit = n % 10;
+}
+_putchar(last_digit + 48);
+return (last_digit);
+}
