@@ -1,13 +1,6 @@
 #include "main.h"
-/* more headers goes there */
-/* betty style doc for function main goes there */
 /**
- * main - Entry point
- *putchar() is a function
- * Return: Always 0 (Success)
-*/
-/**
- * _islower : Checked for  chracters lower
+ * _islower : Checks for  lower chracters
  * @c : The chracter to be checked
  * Return: 0 if lower . 1 if anything else
  */
