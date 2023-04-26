@@ -1,7 +1,8 @@
 #include "main.h"
 /**
- * function _islower : return 0 if lower
- * Return: int c.
+ * function _islower :check if chracter is lower
+ * @c : The chracter to be checked
+ * Return: 0 if lower . 1 if anything else
  */
 int  _islower(int c)
 {
