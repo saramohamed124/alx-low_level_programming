@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * print_sign - Checks for letter, lowercase and uppercase character
- * @i: The character to be checked
+ * print_sign - Checks for zero, more than zero and lower than zero character
+ * @n: The character to be checked
  * Return: 1 for letter, lowercase and uppercase characters and 0 for else
  */
 int print_sign(int n)
