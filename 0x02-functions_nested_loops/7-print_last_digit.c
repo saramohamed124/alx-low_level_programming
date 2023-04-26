@@ -1,10 +1,10 @@
 #include "main.h"
 #include <stdio.h>
 /**
-* print_last_digit - Computes the absolute 
-value of an integer.
+* print_last_digit - print the last digit of
+integer
  * @n: The character to be checked
- * Return: n %10 if n < 10 or n % 10 if else 
+ * Return: n %10 if n < 10 or n % 10 if else
  */
 int print_last_digit(int n)
 {
