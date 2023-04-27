@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _isdigit: checks for digit
+ *_isdigit - checks for digit (0 through 9)
  *@c: the value we checked
- *Return: 1 if digit and 0 if owither 
+ *Return: 1 and 0
  */
 int _isdigit(int c)
 {
