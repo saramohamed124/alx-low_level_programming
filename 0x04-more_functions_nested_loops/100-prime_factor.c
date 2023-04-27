@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include <math.h>
 /**
- * more_numbers - prints 10 times the numbers, from 0 to 14
+ * main -  finds and prints the largest prime factor of the number 612852475143
  * Return: always succes
  */
 int main(void)
 {
 long x, maxf;
-long number = 612852475143;
+long long number = 612852475143;
 double square = sqrt(number);
 for (x = 1; x <= square; x++)
 {
@@ -19,3 +19,4 @@ maxf = number / x;
 printf("%ld\n", maxf);
 return (0);
 }
+
