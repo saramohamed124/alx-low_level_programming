@@ -3,8 +3,8 @@
 /* more headers goes there */
 /* betty style doc for function main goes there */
 /**
- * main - Entry point
- *if is a f
+ *positive_or_negative : chevk positive or negative int
+ *@i: the value we checked
  * Return: Always 0 (Success)
 */
 void positive_or_negative(int i)
