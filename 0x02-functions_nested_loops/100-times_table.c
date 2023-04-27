@@ -4,7 +4,7 @@
  * starting from
  * @n: The value of timrs table
  */
-void print_times_table(int n)
+void times_table(int n)
 {
 int num, mult, prod;
 if (n >= 0 && n <= 15)
