@@ -6,10 +6,5 @@
  */
 void reset_to_98(int *n)
 {
-int s = 98;
-int *n = &s;
-_putchar(*n + 48);
-_putchar('\n');
-_putchar(s + 48);
-return (0);
+*n = 98;
 }
