@@ -2,10 +2,10 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * _strcat - function that concatenates two strings
+ *_strcat - function that concatenates two strings and print two chars
  * @dest : it is string will be printed
  * @src : it is string to be print
- * Return : 0 always Succes
+ * Return: void
  */
 char *_strcat(char *dest, char *src)
 {
