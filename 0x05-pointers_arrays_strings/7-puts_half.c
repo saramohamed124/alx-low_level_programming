@@ -8,10 +8,24 @@
  */
 void puts_half(char *str)
 {
-    int n;
-int s = strlen(str);
-if (n == (len(s) -1) / 2)
+int y = 0;
+int k;
+while (str[y] != '\0')
 {
-    printf("%s", str);
+y++;
 }
+if (y % 2 == 1)
+{
+k = (y - 1) / 2;
+k += 1;
+}
+else
+{
+k = y / 2;
+}
+for (; k < y; k++)
+{
+putchar(str[k]);
+}
+putchar('\n');
 }
