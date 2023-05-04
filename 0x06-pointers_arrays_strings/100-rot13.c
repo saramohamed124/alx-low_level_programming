@@ -12,7 +12,7 @@ char ROT13[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
 char *ptr = rot;
 while (*rot)
 {
-for (l = 0; l <= 53; l++)
+for (l = 0; l <= 52; l++)
 {
 if (*rot == rot13[l])
 {
@@ -20,7 +20,7 @@ if (*rot == rot13[l])
 break;
 }
 }
-l++;
+rot++;
 }
 return (ptr);
 }
