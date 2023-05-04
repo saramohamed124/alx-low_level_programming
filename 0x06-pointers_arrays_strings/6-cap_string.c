@@ -10,7 +10,7 @@ int text = 0;
 while (str[text])
 {
 while (!(str[text] >= 'a' && str[text] <= 'z'))
-test++;
+text++;
 if (str[text - 1] == ' ' || str[text - 1] == '\n' || str[text - 1] == ',' || str[text - 1] == '"' || str[text - 1] == '\t' || str[text - 1] == ':' || str[text - 1] == ';' || str[text - 1] == '?' || str[text - 1] == '.' || str[text - 1] == '(' || str[text - 1] == ')' || str[text - 1] == '{' || str[text - 1] == '}' || text == 0)
 str[text] -= 32;
 text++;
