@@ -6,7 +6,14 @@
  */
 char *string_toupper(char *str)
 {
-char y[] = "LOOK UP!\n";
-str = y;
+int p = 0;
+while (str[p])
+{
+if (str[p] >= 'a' && str[p] <= 'z')
+{
+str[p] -= 32;
+}
+p++;
+}
 return (str);
 }
