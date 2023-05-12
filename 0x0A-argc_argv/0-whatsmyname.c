@@ -1,9 +1,12 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * argc: it is integer value
- * argv: it is integer value
+ * 
  * Return: Always 0 (Success)
+ */
+/**
+ * argc: it is integer value
+ * argv: it is string value
  */
 int main(int argc, char *argv[])
 {
