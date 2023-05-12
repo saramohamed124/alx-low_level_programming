@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * argc : it is integer value
- * argv : it is string value
+ * @argc: it is integer value
+ * @argv: it is string value
  * Return: Always 0 (Success)
  */
 int main(int argc, char *argv[])
