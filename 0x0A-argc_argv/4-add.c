@@ -8,16 +8,15 @@
  */
 int main(int argc, char *argv[])
 {
-int res;
-if (argc == 1)
+int sum = 0;
+char *c;
+while (--argc)
 {
-res = atoi(argv[1]) * atoi(argv[2]);
-printf("%d\n", res);
+for (c = argv[argc]; *c; c++)
+if (*c < '0' || *c > '9')
+return (printf("Error\n"), 1);
+sum += atoi(argv[argc]);
 }
-else
-{
-printf("Error\n");
-return (1);
-}
+printf("%d\n", sum);
 return (0);
 }
