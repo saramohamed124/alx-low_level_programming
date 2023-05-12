@@ -16,7 +16,8 @@ printf("%d", res);
 }
 else
 {
-printf("Error");
+printf("Error\n");
+return (1);
 }
 putchar('\n');
 return (0);
