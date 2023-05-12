@@ -12,13 +12,12 @@ int res;
 if (argc > 1)
 {
 res = atoi(argv[1]) * atoi(argv[2]);
-printf("%d", res);
+printf("%d\n", res);
 }
 else
 {
 printf("Error\n");
 return (1);
 }
-putchar('\n');
 return (0);
 }
