@@ -8,10 +8,9 @@
  */
 int main(int argc, char *argv[])
 {
-int i, res;
+int res;
 if (argc > 1)
 {
-
 res = atoi(argv[1]) * atoi(argv[2]);
 printf("%d", res);
 }
