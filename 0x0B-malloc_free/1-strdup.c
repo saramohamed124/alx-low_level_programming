@@ -9,11 +9,28 @@
  */
 char *_strdup(char *str)
 {
-if (str == NULL)
-return NULL;
-
-size_t len = strlen(str);
-char *copy = (char *)malloc(len + 1);
-memcpy(copy, str, len + 1);
-return (copy);
+char *new_str, *p;
+int len = 0;
+if (str != NULL)
+{
+while (str[len] != '\0')
+{
+len++;
+}
+}
+new_str = (char *) malloc(len + 1);
+p = new_str;
+if (new_str != NULL && str != NULL)
+{
+while (*str != '\0')
+{
+*p++ = *str++;
+}
+*p = '\0';
+}
+else
+{
+return (NULL);
+}
+return (new_str);
 }
