@@ -9,8 +9,11 @@
  */
 char *_strdup(char *str)
 {
+if (str == NULL)
+return NULL;
+
 size_t len = strlen(str);
 char *copy = (char *)malloc(len + 1);
 memcpy(copy, str, len + 1);
-return copy;
+return (copy);
 }
