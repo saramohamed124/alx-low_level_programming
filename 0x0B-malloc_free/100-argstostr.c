@@ -25,7 +25,7 @@ j++;
 j = 0;
 i++;
 }
-s = malloc((sizeof(char) * ch) + ac + 1);
+s = malloc((sizeof(char) * ch) +ac + 1);
 i = 0;
 while (av[i])
 {
