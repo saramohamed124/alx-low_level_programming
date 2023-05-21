@@ -20,7 +20,7 @@ s2 = "";
 while (s1[i])
 i++;
 
-while(s2[k])
+while (s2[k])
 k++;
 
 if (n >= k)
