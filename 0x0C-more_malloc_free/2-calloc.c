@@ -1,4 +1,3 @@
-
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
@@ -25,6 +24,6 @@ while (i < l)
 {
 p[i] = 0;
 i++;
-} 
+}
 return (p);
 }
