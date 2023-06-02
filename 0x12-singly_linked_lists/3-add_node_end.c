@@ -1,9 +1,9 @@
 #include "lists.h"
 
 /**
- * add_node_end - add a node to the end of the list
+ * add_node_end - add a node to the
  * @head: address of pointer to head node
- * @str: str fild of node 
+ * @str: str fild of node
  *
  * Return: size of list
  */
