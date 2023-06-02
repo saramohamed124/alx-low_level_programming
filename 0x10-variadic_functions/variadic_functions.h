@@ -2,6 +2,19 @@
 #define VARIADIC_FUNCTIONS_C
 
 #include <stdarg.h>
+#include <stdio.h>
+
+/**
+ * struct token - prints a name as is
+ *
+ * @token: it is value
+ * @f: it is value
+ */
+typedef struct token
+{
+char *token;
+void (*f)(char *, va_list);
+} token_t;
 
 int sum_them_all(const unsigned int n, ...);
 void print_numbers(const char *separator, const unsigned int n, ...);
