@@ -18,7 +18,7 @@ return (i);
 }
 
 /**
- * creat_file - reads text from a file
+ * create_file - reads text from a file
  * @filename: the value
  * @text_content: the value
  *
